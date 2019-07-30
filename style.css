@@ -1,0 +1,550 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+li{
+	list-style: none;
+
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+body{}
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+a,a:hover{
+	text-decoration: none;
+	transition: all 0.4 ease;
+}
+.container .flex .menu{
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+.logo{
+    flex: 0 0 20%;
+    max-width: 31%;
+    /* height: 36px; */
+    padding: -39px 30px;
+}
+.container .flex{
+    display: flex;
+    width: 100%;
+    /* height: 147px; */
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+.menu nav ul li{
+    /* display: flex; */
+    /* justify-content: end; */
+    /* justify-content: space-evenly; */
+}
+.logo img{
+    width: 173px;
+    height: 145px;
+    margin-top: -30px;
+}
+nav{
+    /* flex: 0 0 80%; */
+    /* max-width: 80%; */
+}
+.menu nav ul li a{
+    /* display: flex; */
+    color: orange;
+    padding: 5px 37px;
+    font-size: 19px;
+    transition: all 0.4s ease;
+    /* justify-content: space-evenly; */
+}
+.menu nav ul li a:hover{
+    color: #f14051;
+}
+.nav .a a{}
+.nav ul li .a a:hover{}
+.banner-section{
+    background-image: url(back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-section .container{}
+.banner-section .container .flex .banner-content{
+    text-align: center;
+}
+.banner-section .container .flex{
+    height: 93vh;
+    align-items: center;
+    justify-content: center;
+}
+.banner-section .container a{}
+.banner-section .container a:hover{}
+.banner-content{}
+.banner-section .container .flex .banner-content h3{font-family: 'oswald',sans-serif;font-size: 19px;margin-bottom: -6px;margin-top: 120px;color: #279a8d;}
+.banner-section .container .flex .banner-content h1{
+    font-family: cursive;
+    font-size: 52px;
+    color: #daa31b;
+    margin-bottom: 18px;
+}
+.banner-section .container .flex .banner-content p{
+    width: 478px;
+    color: #a4d2cf;
+    font-family: 'Dancing Script', cursive;
+}
+.b{
+    /* width: 160px; */
+}
+.a{
+    transition: all 0.4 ease;
+    /* border: red; */
+    box-shadow: 0px 0px 19px 1px red;
+}
+.button a{
+    padding: 10px 51px;
+    border-radius: 53%;
+    background-color: #45564c7a;
+    margin: 0 6px;
+    color: #d2de58;
+    box-shadow: 6px 6px crimson;
+    transition: all 0.4s ease;
+}
+.button .a{}
+.button .b{}
+
+.button a:hover{
+    color: red;
+    background-color: #f2ca30b0;
+    box-shadow: 0 0 red;
+}
+.bbq-place .container .flex{
+    display: flex;
+    margin: 74px 0;
+    align-items: center;
+}
+.bbq-place .container .flex .about-bbq{
+    /* justify-content: center; */
+    flex: 0 0 40%;
+    max-width: 40%;
+    /* margin-top: 27px; */
+    /* align-items: center; */
+    text-align: center;
+}
+.bbq-place .container .flex .about-bbq a{
+    border-radius: 42%;
+    border: solid #98623f;
+    margin: 0 39px;
+    padding: 5px 23px;
+    color: #080501;
+}
+.bbq-place .container .flex .about-bbq a:hover{
+    color: #98623f;
+    background-color: #2e2c2d;
+}
+.bbq-place .container .flex{}
+.button{
+    margin-top: 50px;
+    /* width: 1100px; */
+}
+.bbq-place .container .flex .about-bbq img{
+    height: 79px;
+    margin: 5px auto;
+    /* color: red; */
+}
+
+.bbq-place .container .flex .about-bbq h2{
+    font-size: 36px;
+    color: #544136;
+}
+
+.bbq-place .container .flex .about-bbq h4{
+    font-size: 16px;
+    margin-bottom: 3px;
+    margin-top: 26px;
+}
+.bbq-place .container .flex .about-bbq .f{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    margin: -29px auto;
+    /* height: 20px; */
+}
+.bbq-place .container .flex .about-bbq p{
+    font-size: 11px;
+    margin: 12px auto;
+    line-height: 18px;
+}
+.bbq-place .container .flex .about-bbq strong{
+    font-size: 13px;
+    /* margin-bottom: 6px; */
+    width: 100%;
+    /* margin-top: 13px; */
+}
+.about-bbq-img{
+    flex: 0 0 30%;
+    max-width: 30%;
+    height: 100%;
+    padding: 0 16px;
+    /* box-shadow: 0 0 0px 0 red; */
+}
+.about-bbq-img a{
+    box-shadow: 0 0 0px 8px red;
+}
+.about-bbq-img img{
+    height: 417px;
+    width: 3600px;
+    box-shadow: 0 0 13px 2px #402c2c;
+}
+.about-bbq-img img:hover{
+    box-shadow: none;
+}
+.bbq-place{}
+header{
+    background-color: #2d504eb5;
+    position: fixed;
+    width: 100%;
+    height: 104px;
+}
+.menu nav ul li a:hover{
+    /* box-shadow: 0px 0px 0px 0px #fff; */
+}
+.pertner1{
+    padding: -24px;
+    margin-top: 68px;
+    /* justify-content: center; */
+    margin-left: auto;
+    flex: 0 0 13%;
+    margin-right: auto;
+}
+.pertner2{
+    /* padding: 65px; */
+    justify-content: center;
+    margin-top: 56px;
+    flex: 0 0 10%;
+}
+.pertner3{
+    padding: 18px;
+    /* justify-content: space-evenly; */
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 225px;
+}
+.pertner4{
+    /* padding: 65px; */
+    /* justify-content: space-evenly; */
+    margin-top: 73px;
+    width: 258px;
+}
+.pertner5{
+    padding: 65px;
+    /* justify-content: space-evenly; */
+    width: 220px;
+}
+
+.pertner-logo .container{}
+.pertner-logo{
+    width: 100%;
+    display: flex;
+}
+.pertner-logo .container .pertner1 img{
+    padding: 7px;
+}
+.pertner-logo .container .pertner2 img{
+    padding: 7px;
+}
+.pertner-logo .container .pertner3 img{
+    padding: 7px;
+}
+.pertner-logo .container .pertner4 img{
+    padding: 7px;
+}
+.pertner-logo .container .pertner5 img{
+    padding: 7px;
+}
+.featured{
+    background-image: url(fire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 76px;
+}
+.featured .container{
+    /* text-align: center; */
+    align-items: center;
+}
+.featured .flex{}
+.featured .featured-content{
+    text-align: center;
+    margin: 123px auto;
+}
+.featured .featured-content img{
+    width: 100px;
+    margin: 0 auto;
+    /* color: red; */
+    margin-top: -35px;
+}
+.featured .featured-content h1{
+    font-size: 42px;
+    margin-bottom: 13px;
+}
+.featured .featured-content h3{}
+.featured .featured-content p{}
+.platter{
+    /* display: flex; */
+    /* padding: 0 149px; */
+}
+.platter .container{
+    padding: 0px 199px;
+}
+.platter .container .flex{
+    display: inherit;
+    text-align: left;
+}
+.platter .container .flex .food-menu{
+    display: flex;
+}
+.platter .container .flex .food-menu h1{
+    font-size: 22px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #de7a2c;
+}
+.platter .container .flex .food-menu h4{
+    margin-bottom: 10px;
+}
+.platter .container .flex .food-menu p{
+    font-size: 12px;
+    color: #211b1b;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.menu-pic{
+    /* border-radius: 50%; */
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 48px;
+}
+.menu-pic img{
+    border-radius: 26%;
+    width: 461px;
+}
+.discount{
+    background-image: url(drink.jpg);
+    background-repeat: no-repeat;
+    /* background-repeat-y: repeat; */
+    background-position: top;
+    background-size: cover;
+    /* background-blend-mode: luminosity; */
+    /* height: 50vh; */
+}
+.discount .container{
+    height: 100vh;
+}
+.discount .container .flex{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    /* margin-top: 50px; */
+}
+.happy{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    /* margin: auto auto; */
+    height: 500px;
+    margin-top: 220px;
+    line-height: 34px;
+}
+.happy h4{
+    color: #ea7e7e;
+    font-size: 24px;
+}
+.happy h1{
+    font-size: 31px;
+    color: #241c34;
+    font-family: 'Righteous', cursive;
+}
+.happy p{}
+.happy a{
+    border: solid #3e256b;
+    border-radius: 50%;
+    padding: 7px 20px;
+    color: #105f5a;
+    background-color: #b3969abd;
+}
+.happy a:hover{
+    background-color: #3e256b;
+    color: #ea7e7e;
+}
+.happy-pic{
+    width: 161px;
+    display: flex;
+    margin: 17px auto;
+    padding: -17px -3px;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+.feedback{
+    text-align: center;
+}
+.feedback .counter{}
+.feedback-heading{
+    margin: 0 auto;
+}
+.feedback-heading h1{
+    font-size: 55px;
+    margin-top: 52px;
+    font-family: 'Beth Ellen', cursive;
+}
+.feedback-heading img{
+    margin: 0 auto;
+    /* size: 32px; */
+    width: 83px;
+}
+.feedback-heading p{
+    width: 1100px;
+    margin: 0 auto;
+}
+.counter .flex{}
+.counter .feed-people{
+	overflow: hidden;
+}
+.people{
+    float: left;
+    width: 25%;
+    padding: 69px 57px;
+    /* overflow: hidden; */
+    display: inline-block;
+}
+.people img{
+    border-radius: 50%;
+    width: 125px;
+    margin: 0 auto;
+}
+.people strong{
+    font-family: 'Lobster Two', cursive;
+}
+.people p{
+    font-family: 'Pontano Sans', sans-serif;
+}
+.eat{
+    background-image: url(cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(cafe.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    background-blend-mode: hue;
+    text-align: center;
+}
+.eat .container{
+    /* background-image: url(cafe.jpg); */
+    height: 100vh;
+    text-align: center;
+}
+.eat .container .flex{
+   
+text-align: center;
+   
+height: 100vh;
+}
+.eat-content{
+    text-align: center;
+    margin: 0 auto;
+} 
+.eat-content img{
+    width: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 63px;
+}
+.eat-content h1{
+    color: #fea501;
+    font-size: 68px;
+    text-align: center;
+}
+.eat-content p{
+    width: 1000px;
+    font-size: 21px;
+    color: #bcfbf6;
+    margin-bottom: 25px;
+}
+.eat-content a{
+    
+    margin: 0 auto;
+    color: #FFEB3B;
+    /* border: solid red; */
+}
+.eat-content .b a{
+    
+margin: 43px auto;
+    
+color: #FFEB3B;
+    
+border: solid red;
+    
+border-radius: 50%;
+    
+transition: all 0.4s ease;
+    
+padding: 11px 27px;
+}
+.eat-content .b a:hover{
+    color: #986d6d;
+    background-color: #f7de08;
+    border: none;
+}
+.eat-content span{
+}
+.eat-content ul{
+    display: flex;
+    margin: 17px auto;
+    width: 234px;
+    justify-content: space-evenly;
+}
+.eat-content ul li{}
+.eat-content ul li a{
+    color: #8c1822;
+    transition: all 0.4s ease;
+} 
+.eat-content ul li a:hover{
+    color: yellow;
+} 
+.s{
+    /* justify-content: flex-end; */
+    /* padding-right: 0px; */
+    align-items: left;
+}
+.v{
+    /* justify-content: flex-start; */
+    padding-left: 0px;
+}
+
+.food-menu{}
+.d{}
+.e{}
+.a a{
+    border: 9px  solid;
+    border-radius: 100px;
+    border-width: 2px;
+    padding: 12px 37px;
+    background-color: #433032;
+    box-shadow: 1px 1px 11px 4px #480a0a;
+    transition: all 0.4s ease;
+}
+.a a:hover{
+    box-shadow: 0 0 0 0 #ff000000;
+}
